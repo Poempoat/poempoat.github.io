@@ -1,2 +1,1 @@
-小鳖密码是：
-QWERTYUIOPASDFGHJKLZXCVBNM1029384756
+https://piston-data.mojang.com/v1/objects/c9df48efed58511cdd0213c56b9013a7b5c9ac1f/server.jar
