@@ -1,0 +1,1 @@
+https://github.com/jie65535/gc-opencommand-plugin/releases/download/v1.5.0/opencommand-dev-1.5.0.jar
