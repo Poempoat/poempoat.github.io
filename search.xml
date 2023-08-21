@@ -19,6 +19,49 @@
 ]]></content>
   </entry>
   <entry>
+    <title>twrp-masters.txt</title>
+    <url>/2023/08/20/twrp-masters-txt/</url>
+    <content><![CDATA[<p>Android 4.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-4.4-deprecated</p>
+<p>Android 5.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-5.1</p>
+<p>Android 6.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-6.0</p>
+<p>Android 7.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-7.1</p>
+<p>Android 8.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-8.1</p>
+<p>Android 9:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-9.0</p>
+<p>Android 10:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-10.0-deprecated</p>
+]]></content>
+      <categories>
+        <category>旧页面迁移</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Android</tag>
+        <tag>TWRP编译</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>评论测试</title>
+    <url>/2023/08/21/%E8%AF%84%E8%AE%BA%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p>这个页面用来测试博客中嵌入的Gitalk评论插件。</p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>欢迎来的XTZYJの技术小屋</title>
+    <url>/2023/08/20/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E7%9A%84XTZYJ%E3%81%AE%E6%8A%80%E6%9C%AF%E5%B0%8F%E5%B1%8B/</url>
+    <content><![CDATA[<p>Hello World</p>
+<p>这里是系统只因家XTZYJ的个人博客，基于Hexo博客框架和Keep主题。</p>
+<p>本博客文章使用MarkDown语言，我使用Marktext编辑器编写。</p>
+<p>本博客以静态页面的方式托管在Github Pages下。</p>
+<p>本博客致力于分享有关于计算机、网络相关的技术内容，让玩转搞机更容易。</p>
+<p>本博客创建于2023&#x2F;08&#x2F;20。</p>
+]]></content>
+      <tags>
+        <tag>欢迎</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Welcome to use Hexo Theme Keep</title>
     <url>/2022/10/25/welcome-to-use-hexo-theme-keep/</url>
     <content><![CDATA[<p>Welcome to use Hexo Theme Keep.</p>
@@ -44,40 +87,6 @@
       <tags>
         <tag>Hexo</tag>
         <tag>Keep</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>欢迎来的XTZYJの技术小屋</title>
-    <url>/2023/08/20/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E7%9A%84XTZYJ%E3%81%AE%E6%8A%80%E6%9C%AF%E5%B0%8F%E5%B1%8B/</url>
-    <content><![CDATA[<p>Hello World</p>
-<p>这里是系统只因家XTZYJ的个人博客，基于Hexo博客框架和Keep主题。</p>
-<p>本博客文章使用MarkDown语言，我使用Marktext编辑器编写。</p>
-<p>本博客以静态页面的方式托管在Github Pages下。</p>
-<p>本博客致力于分享有关于计算机、网络相关的技术内容，让玩转搞机更容易。</p>
-<p>本博客创建于2023&#x2F;08&#x2F;20。</p>
-]]></content>
-      <tags>
-        <tag>欢迎</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>twrp-masters.txt</title>
-    <url>/2023/08/20/twrp-masters-txt/</url>
-    <content><![CDATA[<p>Android 4.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-4.4-deprecated</p>
-<p>Android 5.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-5.1</p>
-<p>Android 6.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-6.0</p>
-<p>Android 7.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-7.1</p>
-<p>Android 8.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-8.1</p>
-<p>Android 9:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-9.0</p>
-<p>Android 10:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-10.0-deprecated</p>
-]]></content>
-      <categories>
-        <category>旧页面迁移</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>Android</tag>
-        <tag>TWRP编译</tag>
       </tags>
   </entry>
   <entry>
