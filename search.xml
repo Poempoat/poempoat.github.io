@@ -1,67 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/08/20/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post-test"><a href="#Create-a-new-post-test" class="headerlink" title="Create a new post test"></a>Create a new post test</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post Test&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>twrp-masters.txt</title>
-    <url>/2023/08/20/twrp-masters-txt/</url>
-    <content><![CDATA[<p>Android 4.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-4.4-deprecated</p>
-<p>Android 5.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-5.1</p>
-<p>Android 6.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-6.0</p>
-<p>Android 7.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-7.1</p>
-<p>Android 8.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-8.1</p>
-<p>Android 9:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-9.0</p>
-<p>Android 10:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-10.0-deprecated</p>
-]]></content>
-      <categories>
-        <category>旧页面迁移</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>Android</tag>
-        <tag>TWRP编译</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>评论测试</title>
-    <url>/2023/08/21/%E8%AF%84%E8%AE%BA%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<p>这个页面用来测试博客中嵌入的Gitalk评论插件。</p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>欢迎来的XTZYJの技术小屋</title>
-    <url>/2023/08/20/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E7%9A%84XTZYJ%E3%81%AE%E6%8A%80%E6%9C%AF%E5%B0%8F%E5%B1%8B/</url>
-    <content><![CDATA[<p>Hello World</p>
-<p>这里是系统只因家XTZYJ的个人博客，基于Hexo博客框架和Keep主题。</p>
-<p>本博客文章使用MarkDown语言，我使用Marktext编辑器编写。</p>
-<p>本博客以静态页面的方式托管在Github Pages下。</p>
-<p>本博客致力于分享有关于计算机、网络相关的技术内容，让玩转搞机更容易。</p>
-<p>本博客创建于2023&#x2F;08&#x2F;20。</p>
-]]></content>
-      <tags>
-        <tag>欢迎</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Welcome to use Hexo Theme Keep</title>
     <url>/2022/10/25/welcome-to-use-hexo-theme-keep/</url>
     <content><![CDATA[<p>Welcome to use Hexo Theme Keep.</p>
@@ -87,6 +26,67 @@
       <tags>
         <tag>Hexo</tag>
         <tag>Keep</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>欢迎来的XTZYJの技术小屋</title>
+    <url>/2023/08/20/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E7%9A%84XTZYJ%E3%81%AE%E6%8A%80%E6%9C%AF%E5%B0%8F%E5%B1%8B/</url>
+    <content><![CDATA[<p>Hello World</p>
+<p>这里是系统只因家XTZYJ的个人博客，基于Hexo博客框架和Keep主题。</p>
+<p>本博客文章使用MarkDown语言，我使用Marktext编辑器编写。</p>
+<p>本博客以静态页面的方式托管在Github Pages下。</p>
+<p>本博客致力于分享有关于计算机、网络相关的技术内容，让玩转搞机更容易。</p>
+<p>本博客创建于2023&#x2F;08&#x2F;20。</p>
+]]></content>
+      <tags>
+        <tag>欢迎</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/08/20/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post-test"><a href="#Create-a-new-post-test" class="headerlink" title="Create a new post test"></a>Create a new post test</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post Test&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>评论测试</title>
+    <url>/2023/08/21/%E8%AF%84%E8%AE%BA%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p>这个页面用来测试博客中嵌入的Valine评论插件。</p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>twrp-masters.txt</title>
+    <url>/2023/08/20/twrp-masters-txt/</url>
+    <content><![CDATA[<p>Android 4.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-4.4-deprecated</p>
+<p>Android 5.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-5.1</p>
+<p>Android 6.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-6.0</p>
+<p>Android 7.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-7.1</p>
+<p>Android 8.x:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-8.1</p>
+<p>Android 9:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-9.0</p>
+<p>Android 10:<br>repo init –depth&#x3D;1 -u <a class="link"   href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" >https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git<i class="fas fa-external-link-alt"></i></a> -b twrp-10.0-deprecated</p>
+]]></content>
+      <categories>
+        <category>旧页面迁移</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Android</tag>
+        <tag>TWRP编译</tag>
       </tags>
   </entry>
   <entry>
