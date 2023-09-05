@@ -9,7 +9,7 @@
     
     <title>
         
-            标签: 博客 |
+            HTTP-FLV直播 |
         
         XTZYJの技术小屋
     </title>
@@ -97,7 +97,7 @@
                         </li>
                     
                         <li class="menu-item">
-                            <a class="active"
+                            <a class=""
                                href="/tags"
                             >
                                 标签
@@ -113,7 +113,7 @@
                         </li>
                     
                         <li class="menu-item">
-                            <a class=""
+                            <a class="active"
                                href="/live"
                             >
                                 直播
@@ -152,7 +152,7 @@
                 </li>
             
                 <li class="drawer-menu-item flex-center">
-                    <a class="active"
+                    <a class=""
                        href="/tags">标签</a>
                 </li>
             
@@ -162,7 +162,7 @@
                 </li>
             
                 <li class="drawer-menu-item flex-center">
-                    <a class=""
+                    <a class="active"
                        href="/live">直播</a>
                 </li>
             
@@ -182,38 +182,46 @@
 
                 
 
-                    <div class="fade-in-down-animation">
-    <div class="tag-container">
-        <div class="tag-name"><i class="fas fa-tag"></i>&nbsp;博客
-        </div>
-        <div class="tag-post-list">
+                    
+<div class="fade-in-down-animation">
+    <div class="page-template-container border-box">
+        
+        <div class="page-template-content border-box keep-markdown-body">
             
-<div class="archive-list-container border-box">
-    
-        <section class="archive-item border-box">
-            <div class="archive-item-header border-box">
-                <span class="archive-year">2023</span>
-            </div>
-            <ul class="article-list border-box">
-                
-                    <li class="article-item border-box">
-                        <a class="article-title border-box text-ellipsis"
-                           href="/2023/08/21/0%E6%88%90%E6%9C%AC%E4%BD%BF%E7%94%A8Hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E6%89%98%E7%AE%A1%E8%87%B3Github-Pages/"
-                        >【0成本】使用Hexo框架搭建个人博客并托管至Github Pages</a>
-                        <span class="article-date border-box">08-21</span>
-                    </li>
-                
-            </ul>
-        </section>
-    
+                <h1 id="🎥直播画面（一直加载就是没开播）"><a href="#🎥直播画面（一直加载就是没开播）" class="headerlink" title="🎥直播画面（一直加载就是没开播）"></a>🎥直播画面（一直加载就是没开播）</h1><div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTTP-FLV 直播</title>
+    <link rel="stylesheet" href="https://xtzyj.top/BlogResources/dplayer/DPlayer.min.css">
+    <script src="https://xtzyj.top/BlogResources/dplayer/flv.min.js"></script>
+    <script src="https://xtzyj.top/BlogResources/dplayer/DPlayer.min.js"></script>
+</head>
+<body>
+    <div id="dplayer-container"></div>
+    <script>
+        const dp = new DPlayer({
+            container: document.getElementById('dplayer-container'),
+            video: {
+                url: 'http://hk-1.5gbps-2.lcf.icu:39078/?port=1935&app=live&stream=1', // 替换为你的 HTTP-FLV 地址
+                type: 'flv' // 指定类型为 flv
+            }
+        });
+// 创建 flv.js 播放器
+    const flvPlayer = flvjs.createPlayer({
+        type: 'flv',
+        url: 'http://hk-1.5gbps-2.lcf.icu:39078/?port=1935&app=live&stream=1' // 替换为你的 HTTP-FLV 地址
+    });
+    flvPlayer.attachMediaElement(dp.video); // 将 flv.js 播放器与 DPlayer 视频元素关联
+    flvPlayer.load();
+    flvPlayer.play();
+</script>
 </div>
 
+            
         </div>
+        
     </div>
-    
-
-
-
 </div>
 
 
