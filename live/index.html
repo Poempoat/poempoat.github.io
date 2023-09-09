@@ -188,35 +188,9 @@
         
         <div class="page-template-content border-box keep-markdown-body">
             
-                <h1 id="🎥直播画面（一直加载就是没开播）"><a href="#🎥直播画面（一直加载就是没开播）" class="headerlink" title="🎥直播画面（一直加载就是没开播）"></a>🎥直播画面（一直加载就是没开播）</h1><div>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>HTTP-FLV 直播</title>
-    <link rel="stylesheet" href="https://xtzyj.top/BlogResources/dplayer/DPlayer.min.css">
-    <script src="https://xtzyj.top/BlogResources/dplayer/flv.min.js"></script>
-    <script src="https://xtzyj.top/BlogResources/dplayer/DPlayer.min.js"></script>
-</head>
-<body>
-    <div id="dplayer-container"></div>
-    <script>
-        const dp = new DPlayer({
-            container: document.getElementById('dplayer-container'),
-            video: {
-                url: 'http://hk-1.5gbps-2.lcf.icu:39078/?port=1935&app=live&stream=1', // 替换为你的 HTTP-FLV 地址
-                type: 'flv' // 指定类型为 flv
-            }
-        });
-// 创建 flv.js 播放器
-    const flvPlayer = flvjs.createPlayer({
-        type: 'flv',
-        url: 'http://hk-1.5gbps-2.lcf.icu:39078/?port=1935&app=live&stream=1' // 替换为你的 HTTP-FLV 地址
-    });
-    flvPlayer.attachMediaElement(dp.video); // 将 flv.js 播放器与 DPlayer 视频元素关联
-    flvPlayer.load();
-    flvPlayer.play();
-</script>
-</div>
+                <h1 id="🎥直播画面"><a href="#🎥直播画面" class="headerlink" title="🎥直播画面"></a>🎥直播画面</h1><p><a class="link"   target="_blank" rel="noopener" href="http://hk-1.5gbps-2.lcf.icu:51201/" >点击进入直播网页<i class="fas fa-external-link-alt"></i></a></p>
+<p>进不去的就是没开播，正常情况下进去可以看到DPlyaer页面</p>
+<p>由于使用了flv.js，故不支持iOS（显示flvjs not support），日后可能会考虑为iOS设备开启hls.js直播</p>
 
             
         </div>
