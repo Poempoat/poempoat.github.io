@@ -84,8 +84,14 @@ keep-tablet()
 .page-container .side-tools {
   position: fixed;
   right: 0;
-  bottom: 5%;
+  bottom: 1.6rem;
   box-sizing: border-box;
+  padding-right: 1rem;
+keep-tablet()
+}
+.page-container .side-tools:hover .side-tools-container {
+  transform: translateX(0);
+  opacity: 1;
 }
 .page-container .tablet-post-toc-mask {
   position: fixed;
