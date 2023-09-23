@@ -101,13 +101,6 @@
 
   
   <url>
-    <loc>https://xtzyj.top/tags/%E6%AC%A2%E8%BF%8E/</loc>
-    <lastmod>2023-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://xtzyj.top/tags/Linux/</loc>
     <lastmod>2023-09-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -123,6 +116,13 @@
   
   <url>
     <loc>https://xtzyj.top/tags/TWRP%E7%BC%96%E8%AF%91/</loc>
+    <lastmod>2023-09-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xtzyj.top/tags/%E6%AC%A2%E8%BF%8E/</loc>
     <lastmod>2023-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
