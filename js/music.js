@@ -1,7 +1,7 @@
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
     fixed: true,
-    autoplay: true,
+    autoplay: false,
     theme: '#ff0000',
     loop: 'all',
     order: 'list',
