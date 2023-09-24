@@ -150,6 +150,14 @@
                             </a>
                         </li>
                     
+                        <li class="menu-item">
+                            <a class=""
+                               href="https://xtzyj.top/old"
+                            >
+                                旧页面
+                            </a>
+                        </li>
+                    
                     
                         <li class="menu-item search search-popup-trigger">
                             <i class="fas fa-search"></i>
@@ -211,6 +219,11 @@
                        href="/changelog">更新日志</a>
                 </li>
             
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="https://xtzyj.top/old">旧页面</a>
+                </li>
+            
         </ul>
     </div>
 
@@ -220,6 +233,7 @@
 
 
         </div>
+<script src="https://jsmirror.xtzyj.top/npm/sweetalert2@11.7.28/dist/sweetalert2.all.min.js"></script>
 
         <div class="page-main-content-middle border-box">
 
@@ -353,7 +367,7 @@
 <p>在 <code>links.yml</code> 文件里添加本站。</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">XTZYJの技术小屋</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://xtzyj.top/</span></span><br><span class="line">  <span class="attr">description:</span> <span class="string">办法总比困难多。</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://xtzyj.top/favicon.ico</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="二：请求添加你的站点到本站友链列表中"><a href="#二：请求添加你的站点到本站友链列表中" class="headerlink" title="二：请求添加你的站点到本站友链列表中"></a>二：请求添加你的站点到本站友链列表中</h2><p><strong>将本站添加到你的友链列表中后</strong>，私信我的B站或者给我发Email（主页中可以找到），然后以以下格式附上你的站点信息：</p>
+<h2 id="二：请求添加你的站点到本站友链列表中"><a href="#二：请求添加你的站点到本站友链列表中" class="headerlink" title="二：请求添加你的站点到本站友链列表中"></a>二：请求添加你的站点到本站友链列表中</h2><p><strong>将本站添加到你的友链列表中后</strong>，直接在下面评论或者私信我的B站或者给我发Email（主页中可以找到），然后以以下格式附上你的站点信息：</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">你的网站标题</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">你的网站首页链接</span></span><br><span class="line">  <span class="attr">description:</span> <span class="string">你的网站副标题/简短介绍</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">你的网站图标直链</span></span><br></pre></td></tr></table></figure>
 
 <p>检查完毕后我会在一个星期内将你的站点添加到本站友链列表中。</p>
@@ -361,6 +375,96 @@
 
             
         </div>
+        
+            <div class="page-template-comments border-box">
+                
+
+
+    <div class="comments-container border-box">
+        <div id="comments-anchor" class="comment-area-title border-box">
+            <i class="fas fa-comments"></i>&nbsp;评论
+        </div>
+        
+            
+
+    <div class="valine-container">
+        <script data-pjax src="/js/Valine.min.js"></script>
+        <div id="vcomments"></div>
+        <script data-pjax>
+          function loadValine() {
+
+            const config = {
+              el: '#vcomments',
+              appId: 'FonMAl9wIlf98D25Zq1BwcIt-9Nh9j0Va',
+              appKey: 'hWWbKjeAFAivJnHIUTuShm3B',
+              meta: ['nick', 'mail', 'link'],
+              avatar: 'wavatar',
+              enableQQ: true,
+              placeholder: '',
+              lang: 'zh-CN'.toLowerCase()
+            }
+
+            if ('https://fonmal9w.lc-cn-e1-shared.com') {
+              config.serverURLs = 'https://fonmal9w.lc-cn-e1-shared.com'
+            }
+
+            new Valine(config)
+
+            function getAuthor(language) {
+              switch (language) {
+                case 'en':
+                  return 'Author'
+                case 'zh-CN':
+                  return '博主'
+                case 'zh-TW':
+                  return '站長'
+                default:
+                  return 'Master'
+              }
+            }
+
+            // Add "Author" identify
+            const getValineDomTimer = setInterval(() => {
+              const vcards = document.querySelectorAll('#vcomments .vcards .vcard')
+              if (vcards.length > 0) {
+                let author = '系统只因家'
+
+                if (author) {
+                  for (let vcard of vcards) {
+                    const vnick_dom = vcard.querySelector('.vhead .vnick')
+                    const vnick = vnick_dom.innerHTML
+                    if (vnick === author) {
+                      vnick_dom.innerHTML = `${vnick} <span class="author">${getAuthor(KEEP.hexo_config.language)}</span>`
+                    }
+                  }
+                }
+                clearInterval(getValineDomTimer)
+              } else {
+                clearInterval(getValineDomTimer)
+              }
+            }, 2000)
+          }
+
+          if ('true' === 'true') {
+            const loadValineTimeout = setTimeout(() => {
+              loadValine()
+              clearTimeout(loadValineTimeout)
+            }, 1000)
+          } else {
+            window.addEventListener('DOMContentLoaded', loadValine)
+          }
+        </script>
+    </div>
+
+
+        
+    </div>
+
+
+
+
+
+            </div>
         
     </div>
 </div>
@@ -624,6 +728,12 @@
         
             
 <script src="/js/runtime.js"></script>
+
+        
+    
+        
+            
+<script src="/js/windows.js"></script>
 
         
     

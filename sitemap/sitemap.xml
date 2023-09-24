@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xtzyj.top/changelog/index.html</loc>
+    
+    <lastmod>2023-09-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xtzyj.top/links/index.html</loc>
+    
+    <lastmod>2023-09-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xtzyj.top/about/index.html</loc>
     
     <lastmod>2023-09-24</lastmod>
@@ -12,15 +30,6 @@
   
   <url>
     <loc>https://xtzyj.top/2023/08/21/2021-Complete-Guide-To-Play-Zelda-BOTW-On-PC-with-Keyboard-and-Mouse-Cemu-1-22-7-4K-MAX-FPS/</loc>
-    
-    <lastmod>2023-09-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xtzyj.top/changelog/index.html</loc>
     
     <lastmod>2023-09-24</lastmod>
     
@@ -48,15 +57,6 @@
   
   <url>
     <loc>https://xtzyj.top/2023/08/21/0%E6%88%90%E6%9C%AC%E4%BD%BF%E7%94%A8Hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E6%89%98%E7%AE%A1%E8%87%B3Github-Pages/</loc>
-    
-    <lastmod>2023-09-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xtzyj.top/links/index.html</loc>
     
     <lastmod>2023-09-23</lastmod>
     
