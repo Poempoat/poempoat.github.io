@@ -51,6 +51,14 @@ const ap = new APlayer({
         cover: '/music/aLIEz/aliez.jpg',
         lrc: '/music/aLIEz/aliez.lrc'
         
+      },
+{
+        name: '海の幽霊',
+        artist: '米津玄師',
+        url: '/music/海之幽灵/hzyl.mp3',
+        cover: '/music/海之幽灵/hzyl.jpg',
+        lrc: '/music/海之幽灵/hzyl.lrc'
+        
       }
     ]
 });
