@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="系统只因家">
+    
+    <title>
+        
+            Hexo 博客添加 SweetAlert2 欢迎弹窗 |
+        
+        XTZYJの技术小屋
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+        <link rel="shortcut icon" href="/images/logo.jpg">
+    
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    
+        
+    
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"xtzyj.top","root":"/","language":"zh-CN","path":"search.xml"}
+    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":true,"layout":"right"},"style":{"primary_color":"#ff0000","logo":"/images/logo.jpg","favicon":"/images/logo.jpg","avatar":"/images/avatar.jpg","first_screen":{"enable":true,"header_transparent":true,"background_img":"/images/bg.svg","description":"There are always more ways than difficulties.","hitokoto":false},"scroll":{"progress_bar":true,"percent":true}},"local_search":{"enable":true,"preload":true},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"obsidian"},"side_tools":{},"pjax":{"enable":true},"lazyload":{"enable":true},"comment":{"enable":true,"use":"valine","valine":{"appid":"FonMAl9wIlf98D25Zq1BwcIt-9Nh9j0Va","appkey":"hWWbKjeAFAivJnHIUTuShm3B","server_urls":"https://fonmal9w.lc-cn-e1-shared.com","placeholder":null},"gitalk":{"github_id":"Poempoat","github_admins":null,"repository":"poempoat.github.io","client_id":"81f33c88d6dbe88c8ce2","client_secret":"bda2c48266b4de7651bdc6da9bb2d38250023b46","proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"},"twikoo":{"env_id":null,"region":null,"version":"1.6.8"},"waline":{"server_url":null,"reaction":false,"version":2},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false}},"post":{"author_label":{"enable":true,"auto":false,"custom_label_list":["Lv114514"]},"word_count":{"wordcount":true,"min2read":true},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":true},"website_count":{"busuanzi_count":{"enable":true,"site_uv":true,"site_pv":true,"page_pv":true}},"version":"3.7.7"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
+    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  </script>
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="XTZYJの技术小屋" type="application/atom+xml">
+</head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <i class="pjax-progress-icon fas fa-circle-notch fa-spin"></i>
+    
+</div>
+
+
+<main class="page-container border-box">
+
+    <!-- home first screen  -->
+    
+
+    <!-- page content -->
+    <div class="page-main-content border-box">
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="border-box header-content">
+        <div class="left border-box">
+            
+                <a class="logo-image border-box" href="/">
+                    <img src="/images/logo.jpg">
+                </a>
+            
+            <a class="site-name border-box" href="/">
+               XTZYJの技术小屋
+            </a>
+        </div>
+
+        <div class="right border-box">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                归档
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/links"
+                            >
+                                友链
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/live"
+                            >
+                                直播
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                关于
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/changelog"
+                            >
+                                更新日志
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="https://xtzyj.top/old"
+                            >
+                                旧页面
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">归档</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">标签</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/links">友链</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/live">直播</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about">关于</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/changelog">更新日志</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="https://xtzyj.top/old">旧页面</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+        <div class="page-main-content-middle border-box">
+
+            <div class="main-content border-box">
+
+  
+<div class="notice" style="margin-top:50px">
+    <i class="fa fa-bookmark"></i>
+    <div class="notice-content">本站已迁移至Cloudflare，原GitHub Page站点：gh.xtzyj.top</div>
+</div>
+
+
+<style>
+.notice {
+    padding: 20px;
+    border: 1px dashed #e6e6e6;
+    color: #969696;
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    background: #fbfbfb50;
+    border-radius: 10px;
+}
+.notice i{
+    float: middle;
+    color: #999;
+    font-size: 18px;
+    padding-right: 10px;
+    vertical-align: middle;
+    margin-top:3px;
+}
+.notice-content{
+    display: initial;
+    vertical-align: middle;
+}
+</style>
+<link rel="stylesheet" href="https://jsmirror.xtzyj.top/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+
+  
+
+                
+
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container border-box">
+
+        <div class="article-content-container border-box">
+
+            
+
+            <div class="article-content-bottom border-box">
+                
+                    <div class="article-title">
+                        Hexo 博客添加 SweetAlert2 欢迎弹窗
+                    </div>
+                
+
+                
+                    <div class="article-header border-box">
+                        
+                            <div class="avatar-box border-box">
+                                <img src="/images/avatar.jpg">
+                            </div>
+                        
+                        <div class="info-box">
+                            <div class="author">
+                                <span class="name">系统只因家</span>
+                                
+                                    <span class="author-label">Lv114514</span>
+                                
+                            </div>
+                            <div class="meta-info border-box">
+                                
+
+<div class="article-meta-info-container border-box post">
+    <div class="article-meta-info border-box">
+        
+
+
+        
+            <span class="meta-info-item article-create-date">
+                <i class="icon fa-solid fa-calendar-check"></i>&nbsp;
+                <span class="pc">2023-09-24 11:44:56</span>
+                <span class="mobile">2023-09-24 11:44</span>
+            </span>
+
+            <span class="meta-info-item article-update-date">
+                <i class="icon fa-solid fa-file-pen"></i>&nbsp;
+                <span class="pc" data-updated="Sun Sep 24 2023 21:01:01 GMT+0800">2023-09-24 21:01:01</span>
+            </span>
+        
+
+        
+            <span class="meta-info-item article-category border-box"><i class="icon fas fa-folder"></i>&nbsp;
+                <ul>
+                    
+                            <li class="category-item">
+                                
+                                <a href="/categories/%E6%95%99%E7%A8%8B/">教程</a>
+                            </li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+            <span class="article-tag meta-info-item border-box">
+                <i class="icon fas fa-tags"></i>&nbsp;
+                <ul>
+                    
+                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/tags/%E7%BD%91%E9%A1%B5/">网页</a></li>
+                        
+                    
+                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+        
+            <span class="meta-info-item article-wordcount">
+                <i class="icon fas fa-file-word"></i>&nbsp;<span>793 字</span>
+            </span>
+        
+        
+            <span class="meta-info-item article-min2read">
+                <i class="icon fas fa-clock"></i>&nbsp;<span>3 分钟</span>
+            </span>
+        
+        
+            <span class="meta-info-item article-pv">
+                <i class="icon fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+            </span>
+        
+    </div>
+
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <div class="article-content keep-markdown-body">
+                    
+
+                    <p>文章代号：hexoaddsweetalert2</p>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>突发奇想想给博客添加一个欢迎弹窗，介绍一下我博客的一些特色功能，如听歌和全局搜索……</p>
+<p>然后我就Google it，发现了一个开源项目<a class="link"   target="_blank" rel="noopener" href="https://sweetalert2.github.io/" >SweetAlert2<i class="fas fa-external-link-alt"></i></a>，但是没有和Hexo搭配使用的教程，但是这个开源项目是JavaScript实现的，所以自己来搞也不是什么大问题，大概五分钟就搞定了，<del>于是又可以写（shui）篇教程了</del></p>
+<p><strong>本教程以博客使用的Keep v3.7.7主题为例</strong>，其它主题可以按照差不多的思路</p>
+<h1 id="最终效果"><a href="#最终效果" class="headerlink" title="最终效果"></a>最终效果</h1><p><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://xtzyj.top/images/hexoaddsweetalert2/%E6%9C%80%E7%BB%88%E6%95%88%E6%9E%9C.png"
+                      alt="最终效果" title="最终效果"
+                ></p>
+<h1 id="视频版教程"><a href="#视频版教程" class="headerlink" title="视频版教程"></a>视频版教程</h1><p><a class="link"   target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1vz4y1V7xK" >哔哩哔哩<i class="fas fa-external-link-alt"></i></a>：</p>
+<div>
+<iframe src="//player.bilibili.com/player.html?aid=576340123&bvid=BV1vz4y1V7xK&cid=1277826126&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" autoplay="0"> </iframe>
+</div>
+
+<p><a class="link"   target="_blank" rel="noopener" href="https://youtu.be/F4PxKdJ04Ic" >YouTube<i class="fas fa-external-link-alt"></i></a>：</p>
+<div>
+<iframe width="392" height="220" src="https://www.youtube.com/embed/F4PxKdJ04Ic?si=3RHC14B1kjFSij5b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<h1 id="正式开始"><a href="#正式开始" class="headerlink" title="正式开始"></a>正式开始</h1><h2 id="下载sweetalert2-all-min-js"><a href="#下载sweetalert2-all-min-js" class="headerlink" title="下载sweetalert2.all.min.js"></a>下载sweetalert2.all.min.js</h2><p>从<a class="link"   target="_blank" rel="noopener" href="https://jsmirror.xtzyj.top/npm/sweetalert2@11.7.28/dist/sweetalert2.all.min.js" >这里<i class="fas fa-external-link-alt"></i></a>下载该js文件并将其放入Hexo项目根目录的<code>source\js\</code>文件夹，如果没有就新建一个。</p>
+<h2 id="将js注入到博客中"><a href="#将js注入到博客中" class="headerlink" title="将js注入到博客中"></a>将js注入到博客中</h2><p>在Hexo项目根目录的<code>source\js\</code>文件夹中新建一个js文件，文件名如<code>alert.js</code></p>
+<p>编辑主题配置文件<code>source\_data\keep.yml</code>（也可能是<code>themes\hexo-theme-keep\_config.yml</code>），定位到</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">inject:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span>  <span class="comment"># Option values: true | false</span></span><br><span class="line">  <span class="attr">css:</span></span><br><span class="line">      <span class="comment"># e.g.</span></span><br><span class="line">      <span class="comment"># - /css/custom-1.css</span></span><br><span class="line">      <span class="comment"># - /css/custom-2.css</span></span><br><span class="line">    <span class="comment"># - ...</span></span><br><span class="line">  <span class="attr">js:</span></span><br><span class="line">      <span class="comment"># e.g.</span></span><br><span class="line">      <span class="comment"># - /js/custom-1.js</span></span><br><span class="line">      <span class="comment"># - /js/custom-2.js</span></span><br><span class="line">    <span class="comment"># - ...</span></span><br></pre></td></tr></table></figure>
+
+<p>将其更改为</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">inject:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span>  <span class="comment"># Option values: true | false</span></span><br><span class="line">  <span class="attr">css:</span></span><br><span class="line">      <span class="comment"># e.g.</span></span><br><span class="line">      <span class="comment"># - /css/custom-1.css</span></span><br><span class="line">      <span class="comment"># - /css/custom-2.css</span></span><br><span class="line">    <span class="comment"># - ...</span></span><br><span class="line">  <span class="attr">js:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/js/sweetalert2.all.min.js</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/js/alert.js</span></span><br><span class="line">      <span class="comment"># e.g.</span></span><br><span class="line">      <span class="comment"># - /js/custom-1.js</span></span><br><span class="line">      <span class="comment"># - /js/custom-2.js</span></span><br></pre></td></tr></table></figure>
+
+<p>如果你的主题配置文件没有类似于这个的选项，尝试将js文件添加到主题源码中的js文件夹中</p>
+<h2 id="编辑窗口alert-js"><a href="#编辑窗口alert-js" class="headerlink" title="编辑窗口alert.js"></a>编辑窗口alert.js</h2><p>先创建一个最简单的示例：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Swal</span>.<span class="title function_">fire</span>(<span class="string">&#x27;Any fool can use a computer&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>运行博客服务器</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://xtzyj.top/images/hexoaddsweetalert2/easyexam.png"
+                      alt="easyexam" title="easyexam"
+                ></p>
+<p>如果你要进行更高级的效果，在<a class="link"   target="_blank" rel="noopener" href="https://sweetalert2.github.io/#examples" >官方文档的Example页<i class="fas fa-external-link-alt"></i></a>有很多示例，看那个好看然后复制修改就行</p>
+<p>下面是我的博客欢迎弹窗代码：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Swal</span>.<span class="title function_">fire</span>(&#123;</span><br><span class="line">  <span class="attr">title</span>: <span class="string">&#x27;欢迎来到我的技术小屋(◍•ᴗ•◍)&#x27;</span>,</span><br><span class="line">  <span class="attr">html</span>: <span class="string">&#x27;来了就收藏一下呗~&lt;br&gt;左下角可以听歌捏~&lt;br&gt;右上角可以进行全局搜索捏~&#x27;</span>,</span><br><span class="line">  <span class="attr">icon</span>: <span class="string">&#x27;info&#x27;</span>,</span><br><span class="line">  <span class="attr">confirmButtonText</span>: <span class="string">&#x27;我知道啦&#x27;</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>注意我使用html替代text，这样就可以使用一些html标签如<code>&lt;br&gt;</code>换行符标签</p>
+<h2 id="启用pjax"><a href="#启用pjax" class="headerlink" title="启用pjax"></a>启用pjax</h2><p>如果你不想要博客内切换一次页面就弹一次窗的话，就要启用一个叫做pjax的东东：</p>
+<blockquote>
+<p>PJAX 的工作原理是通过 Ajax 从服务器获取 HTML，并用 Ajax 请求得到 HTML 替换页面上容器的内容，然后使用 pushState 更新浏览器的当前 URL，而无需重新加载页面的布局或任何资源（JS，CSS），从而提供快速，完整页面加载的外观。但实际上它只是 Ajax 和 pushState。（来自Keep官方文档的pjax页 <a class="link"   target="_blank" rel="noopener" href="https://keep-docs.xpoet.cn/tutorial/configuration-guide/pjax.html" >跳转<i class="fas fa-external-link-alt"></i></a>）</p>
+</blockquote>
+<p>在Keep主题中，可以很简单的启用pjax，只需将配置文件的这里改为true即可</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">pjax:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span>  <span class="comment"># Option values: true | false</span></span><br></pre></td></tr></table></figure>
+
+<p>如果你的主题配置文件没有pjax的话，可以参考<a class="link"   target="_blank" rel="noopener" href="https://www.gsgundam.com/2023/01/2023-01-28-z23-try-to-make-hexo-theme-compatible-with-pjax/" >这篇文章<i class="fas fa-external-link-alt"></i></a></p>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>我的教程肯定没有涵盖全部的内容，如果你更高级的弹窗的话去翻翻<a class="link"   target="_blank" rel="noopener" href="https://sweetalert2.github.io/" >官方文档<i class="fas fa-external-link-alt"></i></a>吧。</p>
+
+                </div>
+
+                
+                    <div class="post-copyright-info">
+                        <div class="article-copyright-info-container border-box">
+    <div class="copyright-info-content border-box">
+        <div class="copyright-info-top border-box">
+            <div class="post-title border-box text-ellipsis">
+                Hexo 博客添加 SweetAlert2 欢迎弹窗
+            </div>
+
+            <div class="post-link border-box text-ellipsis">
+                2023/09/24/hexoaddsweetalert2/
+            </div>
+        </div>
+
+        <div class="copyright-info-bottom border-box">
+            <div class="post-author bottom-item">
+                <div class="type">
+                    作者
+                </div>
+                <div class="content">系统只因家</div>
+            </div>
+
+            <div class="post-time bottom-item">
+                <div class="type">
+                    发布于
+                </div>
+                <div class="content">2023-09-24 11:44</div>
+            </div>
+
+
+            <div class="post-license bottom-item">
+                <div class="type">
+                    许可
+                </div>
+                <div class="content tooltip" data-content="CC BY-NC-SA 4.0">
+                    <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">
+                        <i class="fa-brands fa-creative-commons"></i>
+                        <i class="fa-brands fa-creative-commons-by"></i>
+                        <i class="fa-brands fa-creative-commons-nc"></i>
+                        <i class="fa-brands fa-creative-commons-sa"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <i class="copyright-bg fa-solid fa-copyright"></i>
+    </div>
+    <div class="copy-copyright-info flex-center tooltip" data-content="复制版权信息" data-offset-y="-2px">
+        <i class="fa-solid fa-copy"></i>
+    </div>
+</div>
+
+                    </div>
+                
+
+                
+                    <ul class="post-tags-box">
+                        
+                            <li class="tag-item">
+                                <a href="/tags/%E7%BD%91%E9%A1%B5/"><i class="icon fas fa-hashtag"></i>网页</a>&nbsp;
+                            </li>
+                        
+                            <li class="tag-item">
+                                <a href="/tags/%E5%8D%9A%E5%AE%A2/"><i class="icon fas fa-hashtag"></i>博客</a>&nbsp;
+                            </li>
+                        
+                    </ul>
+                
+
+                
+                    <div class="article-nav">
+                        
+                        
+                            <div class="article-next">
+                                <a class="next"
+                                   rel="next"
+                                   href="/2023/09/16/%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E7%9B%B4%E6%92%AD%E5%B9%B3%E5%8F%B0%EF%BC%8C%E4%BD%BF%E7%94%A8Nginx-RTMP-HTTPFLV%EF%BC%8CDPlayer%E6%92%AD%E6%94%BE/"
+                                   title="(Ubuntu)自己搭建直播平台，使用 Nginx RTMP HTTP-FLV，DPlayer播放，支持弹幕Danmaku"
+                                >
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">(Ubuntu)自己搭建直播平台，使用 Nginx RTMP HTTP-FLV，DPlayer播放，支持弹幕Danmaku</span>
+                                        <span class="post-nav-item">下一篇</span>
+                                    </span>
+                                            <span class="right arrow-icon flex-center">
+                                      <i class="fas fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                    </div>
+                
+
+                
+                    
+
+
+    <div class="comments-container border-box">
+        <div id="comments-anchor" class="comment-area-title border-box">
+            <i class="fas fa-comments"></i>&nbsp;评论
+        </div>
+        
+            
+
+    <div class="valine-container">
+        <script data-pjax src="/js/Valine.min.js"></script>
+        <div id="vcomments"></div>
+        <script data-pjax>
+          function loadValine() {
+
+            const config = {
+              el: '#vcomments',
+              appId: 'FonMAl9wIlf98D25Zq1BwcIt-9Nh9j0Va',
+              appKey: 'hWWbKjeAFAivJnHIUTuShm3B',
+              meta: ['nick', 'mail', 'link'],
+              avatar: 'wavatar',
+              enableQQ: true,
+              placeholder: '',
+              lang: 'zh-CN'.toLowerCase()
+            }
+
+            if ('https://fonmal9w.lc-cn-e1-shared.com') {
+              config.serverURLs = 'https://fonmal9w.lc-cn-e1-shared.com'
+            }
+
+            new Valine(config)
+
+            function getAuthor(language) {
+              switch (language) {
+                case 'en':
+                  return 'Author'
+                case 'zh-CN':
+                  return '博主'
+                case 'zh-TW':
+                  return '站長'
+                default:
+                  return 'Master'
+              }
+            }
+
+            // Add "Author" identify
+            const getValineDomTimer = setInterval(() => {
+              const vcards = document.querySelectorAll('#vcomments .vcards .vcard')
+              if (vcards.length > 0) {
+                let author = '系统只因家'
+
+                if (author) {
+                  for (let vcard of vcards) {
+                    const vnick_dom = vcard.querySelector('.vhead .vnick')
+                    const vnick = vnick_dom.innerHTML
+                    if (vnick === author) {
+                      vnick_dom.innerHTML = `${vnick} <span class="author">${getAuthor(KEEP.hexo_config.language)}</span>`
+                    }
+                  }
+                }
+                clearInterval(getValineDomTimer)
+              } else {
+                clearInterval(getValineDomTimer)
+              }
+            }, 2000)
+          }
+
+          if ('true' === 'true') {
+            const loadValineTimeout = setTimeout(() => {
+              loadValine()
+              clearTimeout(loadValineTimeout)
+            }, 1000)
+          } else {
+            window.addEventListener('DOMContentLoaded', loadValine)
+          }
+        </script>
+    </div>
+
+
+        
+    </div>
+
+
+
+
+
+                
+            </div>
+        </div>
+
+        
+            <div class="pc-post-toc right-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9C%80%E7%BB%88%E6%95%88%E6%9E%9C"><span class="nav-number">2.</span> <span class="nav-text">最终效果</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%A7%86%E9%A2%91%E7%89%88%E6%95%99%E7%A8%8B"><span class="nav-number">3.</span> <span class="nav-text">视频版教程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%AD%A3%E5%BC%8F%E5%BC%80%E5%A7%8B"><span class="nav-number">4.</span> <span class="nav-text">正式开始</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDsweetalert2-all-min-js"><span class="nav-number">4.1.</span> <span class="nav-text">下载sweetalert2.all.min.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%86js%E6%B3%A8%E5%85%A5%E5%88%B0%E5%8D%9A%E5%AE%A2%E4%B8%AD"><span class="nav-number">4.2.</span> <span class="nav-text">将js注入到博客中</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BC%96%E8%BE%91%E7%AA%97%E5%8F%A3alert-js"><span class="nav-number">4.3.</span> <span class="nav-text">编辑窗口alert.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%AF%E7%94%A8pjax"><span class="nav-number">4.4.</span> <span class="nav-text">启用pjax</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%90%8E%E8%AE%B0"><span class="nav-number">5.</span> <span class="nav-text">后记</span></a></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom border-box">
+            
+<footer class="footer border-box">
+    <div class="border-box website-info-box default">
+        
+            <div class="copyright-info info-item default">
+                &copy;&nbsp;<span>2023</span>&nbsp;-&nbsp;2023
+                
+                    &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">系统只因家</a>
+                
+            </div>
+
+            <div class="theme-info info-item default">
+                由&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;驱动&nbsp;&&nbsp;主题&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
+            </div>
+
+            
+                <div class="icp-info info-item default">
+                    <a class=""
+                       target="_blank"
+                       href="https://icp.gov.moe/?keyword=20232113"
+                    >
+                        萌ICP备20232113号
+ | 
+                    </a>
+<a style="text-decoration:none;color:#e77c8e;" href="https://travel.moe/go.html" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank">&nbsp;<img src="https://travel.moe/images/icon/icon64pink.png" style="width:17px;height:17px">异次元之旅</a>
+                </div>
+            
+
+            
+                <div class="deploy-info info-item default">
+                    
+                    <a target="_blank" rel="nofollow" href="https://github.com/Poempoat/poempoat.github.io">
+                        
+                        本站由 <span class="tooltip" data-content="GitHub Pages"><img src="/images/deploy-provider/github.png"></span> 提供部署服务
+                        
+                    </a>
+                    
+                </div>
+            
+        
+
+        <div class="count-item info-item default">
+            
+                <span class="count-box border-box word">
+                    <span class="item-type border-box">总字数</span>
+                    <span class="item-value border-box word">10.3k</span>
+                </span>
+            
+
+            
+                <span class="count-box border-box uv">
+                    <span class="item-type border-box">访客数</span>
+                    <span class="item-value border-box uv" id="busuanzi_value_site_uv"></span>
+                </span>
+            
+
+            
+                <span class="count-box border-box pv">
+                    <span class="item-type border-box">访问量</span>
+                    <span class="item-value border-box pv" id="busuanzi_value_site_pv"></span>
+                </span>
+            
+        </div>
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    <!-- post tools -->
+    
+        <div class="post-tools right-toc">
+            <div class="post-tools-container border-box">
+    <ul class="tools-list border-box">
+        <!-- PC TOC show toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- PC go comment -->
+        
+            <li class="tools-item flex-center go-to-comments">
+                <i class="fas fa-comment"></i>
+                <span class="post-comments-count"></span>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <!-- side tools -->
+    <div class="side-tools">
+        <div class="side-tools-container border-box ">
+    <ul class="side-tools-list side-tools-show-handle border-box">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+            <li class="tools-item rss flex-center">
+                <a class="flex-center"
+                   href="/atom.xml"
+                   target="_blank"
+                >
+                    <i class="fas fa-rss"></i>
+                </a>
+            </li>
+        
+
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list border-box">
+        
+            <li class="tools-item toggle-show-toc-tablet flex-center">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        
+            <li class="tools-item go-to-comments-tablet flex-center">
+                <i class="fas fa-comment"></i>
+            </li>
+        
+
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <!-- image mask -->
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    <!-- local search -->
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    <!-- tablet toc -->
+    
+        <div class="tablet-post-toc-mask">
+            <div class="tablet-post-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9C%80%E7%BB%88%E6%95%88%E6%9E%9C"><span class="nav-number">2.</span> <span class="nav-text">最终效果</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%A7%86%E9%A2%91%E7%89%88%E6%95%99%E7%A8%8B"><span class="nav-number">3.</span> <span class="nav-text">视频版教程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%AD%A3%E5%BC%8F%E5%BC%80%E5%A7%8B"><span class="nav-number">4.</span> <span class="nav-text">正式开始</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDsweetalert2-all-min-js"><span class="nav-number">4.1.</span> <span class="nav-text">下载sweetalert2.all.min.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%86js%E6%B3%A8%E5%85%A5%E5%88%B0%E5%8D%9A%E5%AE%A2%E4%B8%AD"><span class="nav-number">4.2.</span> <span class="nav-text">将js注入到博客中</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BC%96%E8%BE%91%E7%AA%97%E5%8F%A3alert-js"><span class="nav-number">4.3.</span> <span class="nav-text">编辑窗口alert.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%AF%E7%94%A8pjax"><span class="nav-number">4.4.</span> <span class="nav-text">启用pjax</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%90%8E%E8%AE%B0"><span class="nav-number">5.</span> <span class="nav-text">后记</span></a></li></ol>
+    </div>
+</div>
+
+            </div>
+        </div>
+    
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+
+    
+<script src="/js/code-block.js"></script>
+
+
+
+
+    
+<script src="/js/lazyload.js"></script>
+
+
+
+<div class="post-scripts pjax">
+    
+        
+<script src="/js/post-helper.js"></script>
+
+        
+            
+<script src="/js/libs/anime.min.js"></script>
+
+        
+        
+            
+<script src="/js/toc.js"></script>
+
+        
+    
+    
+    
+</div>
+
+
+    
+<script src="/js/libs/pjax.min.js"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+            // scrollTo: true,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            KEEP.utils.pjaxProgressBarStart();
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            KEEP.utils.pjaxProgressBarEnd();
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            KEEP.refresh();
+        });
+    });
+</script>
+
+
+
+
+    
+        
+            
+<script src="/js/runtime.js"></script>
+
+        
+    
+        
+            
+<script src="/js/sweetalert2.all.min.js"></script>
+
+        
+    
+        
+            
+<script src="/js/alert.js"></script>
+
+        
+    
+
+<link rel="stylesheet" href="/css/APlayer.min.css">
+<div id="aplayer"></div>
+<script type="application/javascript" src="/js/APlayer.min.js"></script>
+<script type="application/javascript" src="/js/music.js"></script>
+<script src="/live2dw/lib/L2Dwidget.min.js?f9c760e8152e943bd3bd9d4deb97f782"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/miku.model.json"},"display":{"position":"right","width":100,"height":225,"hOffset":10,"vOffset":150},"mobile":{"show":true},"log":false});</script></body>
+</html>
