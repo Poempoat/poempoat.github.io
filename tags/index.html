@@ -33,11 +33,17 @@
 
     
         
+            
+                
+<link rel="stylesheet" href="/css/APlayer.min.css">
+
+            
+        
     
-    <script id="hexo-configurations">
-    let KEEP = window.KEEP || {}
+    <script class="keep-theme-configurations">
+    const KEEP = window.KEEP || {}
     KEEP.hexo_config = {"hostname":"xtzyj.top","root":"/","language":"zh-CN","path":"search.xml"}
-    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":true,"layout":"right"},"style":{"primary_color":"#ff0000","logo":"/images/logo.jpg","favicon":"/images/logo.jpg","avatar":"/images/avatar.jpg","first_screen":{"enable":true,"header_transparent":true,"background_img":"/images/bg.svg","description":"There are always more ways than difficulties.","hitokoto":false},"scroll":{"progress_bar":true,"percent":true}},"local_search":{"enable":true,"preload":true},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"obsidian"},"side_tools":{},"pjax":{"enable":true},"lazyload":{"enable":true},"comment":{"enable":true,"use":"valine","valine":{"appid":"FonMAl9wIlf98D25Zq1BwcIt-9Nh9j0Va","appkey":"hWWbKjeAFAivJnHIUTuShm3B","server_urls":"https://fonmal9w.lc-cn-e1-shared.com","placeholder":null},"gitalk":{"github_id":"Poempoat","github_admins":null,"repository":"poempoat.github.io","client_id":"81f33c88d6dbe88c8ce2","client_secret":"bda2c48266b4de7651bdc6da9bb2d38250023b46","proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"},"twikoo":{"env_id":null,"region":null,"version":"1.6.8"},"waline":{"server_url":null,"reaction":false,"version":2},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false}},"post":{"author_label":{"enable":true,"auto":false,"custom_label_list":["Lv114514"]},"word_count":{"wordcount":true,"min2read":true},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":true},"website_count":{"busuanzi_count":{"enable":true,"site_uv":true,"site_pv":true,"page_pv":true}},"version":"3.7.7"}
+    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":true,"layout":"right"},"style":{"primary_color":"#ff0000","logo":"/images/logo.jpg","favicon":"/images/logo.jpg","avatar":"/images/avatar.jpg","first_screen":{"enable":true,"header_transparent":true,"background_img":"/images/bg.svg","description":"There are always more ways than difficulties.","hitokoto":false},"scroll":{"progress_bar":true,"percent":true}},"local_search":{"enable":true,"preload":true},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"obsidian"},"pjax":{"enable":true},"lazyload":{"enable":true},"comment":{"enable":true,"use":"valine","valine":{"appid":"FonMAl9wIlf98D25Zq1BwcIt-9Nh9j0Va","appkey":"hWWbKjeAFAivJnHIUTuShm3B","server_urls":"https://fonmal9w.lc-cn-e1-shared.com","placeholder":null},"gitalk":{"github_id":"Poempoat","github_admins":null,"repository":"poempoat.github.io","client_id":"81f33c88d6dbe88c8ce2","client_secret":"bda2c48266b4de7651bdc6da9bb2d38250023b46","proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"},"twikoo":{"env_id":null,"region":null,"version":"1.6.8"},"waline":{"server_url":null,"reaction":false,"version":2},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false}},"post":{"author_label":{"enable":true,"auto":false,"custom_label_list":["Lv114514"]},"word_count":{"wordcount":true,"min2read":true},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":true},"website_count":{"busuanzi_count":{"enable":true,"site_uv":true,"site_pv":true,"page_pv":true}},"version":"3.8.5"}
     KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
     KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
     KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
@@ -233,44 +239,10 @@
 
 
         </div>
+
         <div class="page-main-content-middle border-box">
 
             <div class="main-content border-box">
-
-  
-<div class="notice" style="margin-top:50px">
-    <i class="fa fa-bookmark"></i>
-    <div class="notice-content">网站开启了pjax，所以如果出现像Email点击无反应的问题，手动刷新一下就好啦~</div>
-</div>
-
-
-<style>
-.notice {
-    padding: 20px;
-    border: 1px dashed #e6e6e6;
-    color: #969696;
-    position: relative;
-    display: inline-block;
-    width: 90%;
-    background: #fbfbfb50;
-    border-radius: 10px;
-}
-.notice i{
-    float: middle;
-    color: #999;
-    font-size: 18px;
-    padding-right: 10px;
-    vertical-align: middle;
-    margin-top:3px;
-}
-.notice-content{
-    display: initial;
-    vertical-align: middle;
-}
-</style>
-<link rel="stylesheet" href="https://jsmirror.xtzyj.top/npm/font-awesome@4.7.0/css/font-awesome.min.css">
-
-  
 
                 
 
@@ -304,7 +276,7 @@
             </div>
 
             <div class="theme-info info-item default">
-                由&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;驱动&nbsp;&&nbsp;基于&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>&nbsp修改
+                由&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;驱动&nbsp;&&nbsp;主题&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
             </div>
 
             
@@ -314,9 +286,8 @@
                        href="https://icp.gov.moe/?keyword=20232113"
                     >
                         萌ICP备20232113号
- | 
                     </a>
-<a style="text-decoration:none;color:#e77c8e;" href="https://travel.moe/go.html" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank">&nbsp;<img src="https://travel.moe/images/icon/icon64pink.png" style="width:17px;height:17px">异次元之旅</a>
+<a style="text-decoration:none;color:#e77c8e;" href="https://travel.moe/go.html" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank">&nbsp;<img src="https://travel.moe/images/icon/icon64pink.png" style="width:13px;height:13px">异次元之旅</a>
                 </div>
             
 
@@ -325,7 +296,7 @@
                     
                     <a target="_blank" rel="nofollow" href="/provider">
                         
-                        本站由 <span class="tooltip" data-content="Cloudflare Pages"><img src="/images/deploy-provider/cloudflare.png">&nbsp和&nbsp</span><span class="tooltip" data-content="GitHub Pages"><img src="/images/deploy-provider/github.png"></span> 提供部署服务
+                        本站由 <span class="tooltip" data-tooltip-content="Cloudflare"><img src="/images/deploy-provider/cloudflare.png"></span> 提供部署服务
                         
                     </a>
                     
@@ -392,8 +363,6 @@
             </li>
         
 
-        
-
         <li class="tools-item tool-scroll-to-bottom flex-center">
             <i class="fas fa-arrow-down"></i>
         </li>
@@ -408,12 +377,10 @@
             <i class="fas fa-cog fa-spin"></i>
         </li>
 
-        
-            <li class="tools-item tool-scroll-to-top flex-center">
-                <i class="arrow-up fas fa-arrow-up"></i>
-                <span class="percent"></span>
-            </li>
-        
+        <li class="tools-item tool-scroll-to-top flex-center show-arrow">
+            <i class="arrow fas fa-arrow-up"></i>
+            <span class="percent"></span>
+        </li>
     </ul>
 </div>
 
@@ -463,10 +430,9 @@
 
 
 
+<!-- common -->
 
 <script src="/js/utils.js"></script>
-
-<script src="/js/main.js"></script>
 
 <script src="/js/header-shrink.js"></script>
 
@@ -474,33 +440,46 @@
 
 <script src="/js/dark-light-toggle.js"></script>
 
+<script src="/js/main.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
 
 
-
+<!-- local-search -->
 
     
 <script src="/js/local-search.js"></script>
 
 
 
+<!-- code-block -->
 
     
 <script src="/js/code-block.js"></script>
 
 
 
+<!-- lazyload -->
 
     
 <script src="/js/lazyload.js"></script>
 
 
 
-<div class="post-scripts pjax">
+<div class="pjax">
     
+
+    <!-- category-page -->
     
+
+    <!-- links-page -->
     
 </div>
 
+<!-- mermaid -->
+
+
+<!-- pjax -->
 
     
 <script src="/js/libs/pjax.min.js"></script>
@@ -520,17 +499,16 @@
             analytics: false,
             currentUrlFullReload: false,
             scrollRestoration: false,
-            // scrollTo: true,
         });
 
         document.addEventListener('pjax:send', () => {
-            KEEP.utils.pjaxProgressBarStart();
+            KEEP.utils.pjaxProgressBarStart()
         });
 
         document.addEventListener('pjax:complete', () => {
-            KEEP.utils.pjaxProgressBarEnd();
-            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
-            KEEP.refresh();
+            KEEP.utils.pjaxProgressBarEnd()
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'))
+            KEEP.initExecute()
         });
     });
 </script>
@@ -541,26 +519,34 @@
     
         
             
-<script src="/js/runtime.js"></script>
+<script class="custom-inject-js" src="/js/APlayer.min.js" data-pjax></script>
 
         
     
         
             
-<script src="/js/sweetalert2.all.min.js"></script>
+<script class="custom-inject-js" src="/js/music.js" data-pjax></script>
 
         
     
         
             
-<script src="/js/alert.js"></script>
+<script class="custom-inject-js" src="/js/runtime.js" data-pjax></script>
+
+        
+    
+        
+            
+<script class="custom-inject-js" src="/js/sweetalert2.all.min.js" data-pjax></script>
+
+        
+    
+        
+            
+<script class="custom-inject-js" src="/js/alert.js" data-pjax></script>
 
         
     
 
-<link rel="stylesheet" href="/css/APlayer.min.css">
-<div id="aplayer"></div>
-<script type="application/javascript" src="/js/APlayer.min.js"></script>
-<script type="application/javascript" src="/js/music.js"></script>
 <script src="/live2dw/lib/L2Dwidget.min.js?f9c760e8152e943bd3bd9d4deb97f782"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/miku.model.json"},"display":{"position":"right","width":100,"height":225,"hOffset":10,"vOffset":150},"mobile":{"show":true},"log":false});</script></body>
 </html>

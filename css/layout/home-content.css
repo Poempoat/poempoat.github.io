@@ -3,7 +3,6 @@
 }
 .home-content-container .home-article-list .home-article-item {
   position: relative;
-  overflow: hidden;
 }
 .home-content-container .home-article-list .home-article-item .post-sticky-box {
   position: absolute;
@@ -33,16 +32,18 @@ keep-mobile()
   width: 100%;
   overflow: hidden;
   background-color: var(--background-color-2);
+  border-top-left-radius: var(--box-border-radius);
+  border-top-right-radius: var(--box-border-radius);
 keep-tablet()
 keep-mobile()
 }
-.home-content-container .home-article-list .home-article-item .home-article-item-top .cover-img {
+.home-content-container .home-article-list .home-article-item .home-article-item-top .home-cover {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transform-origin: center center;
 }
-.home-content-container .home-article-list .home-article-item .home-article-item-top .cover-img:hover {
+.home-content-container .home-article-list .home-article-item .home-article-item-top .home-cover:hover {
   transform: scale(1.03);
 }
 .home-content-container .home-article-list .home-article-item .home-article-item-bottom {

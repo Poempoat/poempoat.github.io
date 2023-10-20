@@ -15,6 +15,7 @@
   --highlight-purple: #b18bb7;
   --highlight-gutter-color: #7a979a;
   --highlight-gutter-bg-color: #273130;
+  --mac-toolbar-background-color: #21252b;
 }
 @media (prefers-color-scheme: light) {
   :root {
@@ -34,6 +35,7 @@
     --highlight-purple: #b18bb7;
     --highlight-gutter-color: #7a979a;
     --highlight-gutter-bg-color: #273130;
+    --mac-toolbar-background-color: #21252b;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -54,6 +56,7 @@
     --highlight-purple: #ae87b5;
     --highlight-gutter-color: #7b989b;
     --highlight-gutter-bg-color: #26302f;
+    --mac-toolbar-background-color: #1f2021;
   }
 }
 .light-mode {
@@ -73,6 +76,7 @@
   --highlight-purple: #b18bb7;
   --highlight-gutter-color: #7a979a;
   --highlight-gutter-bg-color: #273130;
+  --mac-toolbar-background-color: #21252b;
 }
 .dark-mode {
   --toolbar-foreground: #b1b1b1;
@@ -91,4 +95,5 @@
   --highlight-purple: #ae87b5;
   --highlight-gutter-color: #7b989b;
   --highlight-gutter-bg-color: #26302f;
+  --mac-toolbar-background-color: #1f2021;
 }

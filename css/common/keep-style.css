@@ -30,10 +30,25 @@
   --header-transparent-background-1: rgba(255,255,255,0.28);
   --header-transparent-background-2: rgba(255,255,255,0.4);
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
-  --article-aging-tips-color: #b78d0f;
-  --article-aging-tips-background-color: rgba(183,141,15,0.1);
-  --article-aging-tips-border-color: rgba(183,141,15,0.6);
   --post-h-bottom-border-color: rgba(80,80,92,0.15);
+  --article-aging-tips-color: $article-aging-tips-color;
+  --article-aging-tips-background-color: $article-aging-tips-background-color;
+  --article-aging-tips-border-color: $article-aging-tips-border-color;
+  --keep-info-color: rgba(117,117,122,0.8);
+  --keep-info-background-color: rgba(117,117,122,0.1);
+  --keep-info-border-color: rgba(117,117,122,0.6);
+  --keep-primary-color: #0458ab;
+  --keep-primary-background-color: rgba(4,88,171,0.1);
+  --keep-primary-border-color: rgba(4,88,171,0.6);
+  --keep-warning-color: #b78d0f;
+  --keep-warning-background-color: rgba(183,141,15,0.1);
+  --keep-warning-border-color: rgba(183,141,15,0.6);
+  --keep-success-color: #10b981;
+  --keep-success-background-color: rgba(16,185,129,0.1);
+  --keep-success-border-color: rgba(16,185,129,0.6);
+  --keep-danger-color: #f43f5e;
+  --keep-danger-background-color: rgba(244,63,94,0.1);
+  --keep-danger-border-color: rgba(244,63,94,0.6);
 }
 @media (prefers-color-scheme: light) {
   :root {
@@ -68,10 +83,25 @@
     --header-transparent-background-1: rgba(255,255,255,0.28);
     --header-transparent-background-2: rgba(255,255,255,0.4);
     --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
-    --article-aging-tips-color: #b78d0f;
-    --article-aging-tips-background-color: rgba(183,141,15,0.1);
-    --article-aging-tips-border-color: rgba(183,141,15,0.6);
     --post-h-bottom-border-color: rgba(80,80,92,0.15);
+    --article-aging-tips-color: $article-aging-tips-color;
+    --article-aging-tips-background-color: $article-aging-tips-background-color;
+    --article-aging-tips-border-color: $article-aging-tips-border-color;
+    --keep-info-color: rgba(117,117,122,0.8);
+    --keep-info-background-color: rgba(117,117,122,0.1);
+    --keep-info-border-color: rgba(117,117,122,0.6);
+    --keep-primary-color: #0458ab;
+    --keep-primary-background-color: rgba(4,88,171,0.1);
+    --keep-primary-border-color: rgba(4,88,171,0.6);
+    --keep-warning-color: #b78d0f;
+    --keep-warning-background-color: rgba(183,141,15,0.1);
+    --keep-warning-border-color: rgba(183,141,15,0.6);
+    --keep-success-color: #10b981;
+    --keep-success-background-color: rgba(16,185,129,0.1);
+    --keep-success-border-color: rgba(16,185,129,0.6);
+    --keep-danger-color: #f43f5e;
+    --keep-danger-background-color: rgba(244,63,94,0.1);
+    --keep-danger-border-color: rgba(244,63,94,0.6);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -107,10 +137,25 @@
     --header-transparent-background-1: rgba(34,39,46,0.28);
     --header-transparent-background-2: rgba(34,39,46,0.4);
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
-    --article-aging-tips-color: #ecc34d;
-    --article-aging-tips-background-color: rgba(236,195,77,0.1);
-    --article-aging-tips-border-color: rgba(236,195,77,0.6);
     --post-h-bottom-border-color: rgba(173,186,197,0.15);
+    --article-aging-tips-color: $dark-article-aging-tips-color;
+    --article-aging-tips-background-color: $dark-article-aging-tips-background-color;
+    --article-aging-tips-border-color: $dark-article-aging-tips-border-color;
+    --keep-info-color: #9999a2;
+    --keep-info-background-color: rgba(153,153,162,0.1);
+    --keep-info-border-color: rgba(153,153,162,0.5);
+    --keep-primary-color: #268bef;
+    --keep-primary-background-color: rgba(38,139,239,0.1);
+    --keep-primary-border-color: rgba(38,139,239,0.6);
+    --keep-warning-color: #ecc34d;
+    --keep-warning-background-color: rgba(236,195,77,0.1);
+    --keep-warning-border-color: rgba(236,195,77,0.6);
+    --keep-success-color: #10b981;
+    --keep-success-background-color: rgba(16,185,129,0.1);
+    --keep-success-border-color: rgba(16,185,129,0.6);
+    --keep-danger-color: #f43f5e;
+    --keep-danger-background-color: rgba(244,63,94,0.1);
+    --keep-danger-border-color: rgba(244,63,94,0.6);
   }
 }
 .light-mode {
@@ -145,10 +190,25 @@
   --header-transparent-background-1: rgba(255,255,255,0.28);
   --header-transparent-background-2: rgba(255,255,255,0.4);
   --pjax-progress-bar-color: linear-gradient(45deg, #f10006, #ef5b00, #e59c01, #19ca05, #00cab5, #0264c8, #c303c3);
-  --article-aging-tips-color: #b78d0f;
-  --article-aging-tips-background-color: rgba(183,141,15,0.1);
-  --article-aging-tips-border-color: rgba(183,141,15,0.6);
   --post-h-bottom-border-color: rgba(80,80,92,0.15);
+  --article-aging-tips-color: $article-aging-tips-color;
+  --article-aging-tips-background-color: $article-aging-tips-background-color;
+  --article-aging-tips-border-color: $article-aging-tips-border-color;
+  --keep-info-color: rgba(117,117,122,0.8);
+  --keep-info-background-color: rgba(117,117,122,0.1);
+  --keep-info-border-color: rgba(117,117,122,0.6);
+  --keep-primary-color: #0458ab;
+  --keep-primary-background-color: rgba(4,88,171,0.1);
+  --keep-primary-border-color: rgba(4,88,171,0.6);
+  --keep-warning-color: #b78d0f;
+  --keep-warning-background-color: rgba(183,141,15,0.1);
+  --keep-warning-border-color: rgba(183,141,15,0.6);
+  --keep-success-color: #10b981;
+  --keep-success-background-color: rgba(16,185,129,0.1);
+  --keep-success-border-color: rgba(16,185,129,0.6);
+  --keep-danger-color: #f43f5e;
+  --keep-danger-background-color: rgba(244,63,94,0.1);
+  --keep-danger-border-color: rgba(244,63,94,0.6);
 }
 .dark-mode {
   --primary-color: #f00;
@@ -182,8 +242,23 @@
   --header-transparent-background-1: rgba(34,39,46,0.28);
   --header-transparent-background-2: rgba(34,39,46,0.4);
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
-  --article-aging-tips-color: #ecc34d;
-  --article-aging-tips-background-color: rgba(236,195,77,0.1);
-  --article-aging-tips-border-color: rgba(236,195,77,0.6);
   --post-h-bottom-border-color: rgba(173,186,197,0.15);
+  --article-aging-tips-color: $dark-article-aging-tips-color;
+  --article-aging-tips-background-color: $dark-article-aging-tips-background-color;
+  --article-aging-tips-border-color: $dark-article-aging-tips-border-color;
+  --keep-info-color: #9999a2;
+  --keep-info-background-color: rgba(153,153,162,0.1);
+  --keep-info-border-color: rgba(153,153,162,0.5);
+  --keep-primary-color: #268bef;
+  --keep-primary-background-color: rgba(38,139,239,0.1);
+  --keep-primary-border-color: rgba(38,139,239,0.6);
+  --keep-warning-color: #ecc34d;
+  --keep-warning-background-color: rgba(236,195,77,0.1);
+  --keep-warning-border-color: rgba(236,195,77,0.6);
+  --keep-success-color: #10b981;
+  --keep-success-background-color: rgba(16,185,129,0.1);
+  --keep-success-border-color: rgba(16,185,129,0.6);
+  --keep-danger-color: #f43f5e;
+  --keep-danger-background-color: rgba(244,63,94,0.1);
+  --keep-danger-border-color: rgba(244,63,94,0.6);
 }
