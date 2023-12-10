@@ -2,9 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xtzyj.top/2023/09/16/%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E7%9B%B4%E6%92%AD%E5%B9%B3%E5%8F%B0%EF%BC%8C%E4%BD%BF%E7%94%A8Nginx-RTMP-HTTPFLV%EF%BC%8CDPlayer%E6%92%AD%E6%94%BE/</loc>
+    
+    <lastmod>2023-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xtzyj.top/2023/10/05/immich-introduction/</loc>
+    
+    <lastmod>2023-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xtzyj.top/2023/09/24/hexoaddsweetalert2/</loc>
     
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xtzyj.top/2023/08/21/0%E6%88%90%E6%9C%AC%E4%BD%BF%E7%94%A8Hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E6%89%98%E7%AE%A1%E8%87%B3Github-Pages/</loc>
+    
+    <lastmod>2023-12-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -12,15 +39,6 @@
   
   <url>
     <loc>https://xtzyj.top/2023/10/29/Github-Storage-Blog-Media/</loc>
-    
-    <lastmod>2023-11-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xtzyj.top/2023/09/16/%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E7%9B%B4%E6%92%AD%E5%B9%B3%E5%8F%B0%EF%BC%8C%E4%BD%BF%E7%94%A8Nginx-RTMP-HTTPFLV%EF%BC%8CDPlayer%E6%92%AD%E6%94%BE/</loc>
     
     <lastmod>2023-11-04</lastmod>
     
@@ -38,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://xtzyj.top/old/refresh.html</loc>
+    <loc>https://xtzyj.top/old/index.html</loc>
     
     <lastmod>2023-10-06</lastmod>
     
@@ -47,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://xtzyj.top/old/index.html</loc>
+    <loc>https://xtzyj.top/old/refresh.html</loc>
     
     <lastmod>2023-10-06</lastmod>
     
@@ -83,15 +101,6 @@
   </url>
   
   <url>
-    <loc>https://xtzyj.top/2023/10/05/immich-introduction/</loc>
-    
-    <lastmod>2023-10-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xtzyj.top/2023/08/20/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E7%9A%84XTZYJ%E3%81%AE%E6%8A%80%E6%9C%AF%E5%B0%8F%E5%B1%8B/</loc>
     
     <lastmod>2023-10-05</lastmod>
@@ -111,15 +120,6 @@
   
   <url>
     <loc>https://xtzyj.top/2023/08/21/2021-Complete-Guide-To-Play-Zelda-BOTW-On-PC-with-Keyboard-and-Mouse-Cemu-1-22-7-4K-MAX-FPS/</loc>
-    
-    <lastmod>2023-10-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xtzyj.top/2023/08/21/0%E6%88%90%E6%9C%AC%E4%BD%BF%E7%94%A8Hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E6%89%98%E7%AE%A1%E8%87%B3Github-Pages/</loc>
     
     <lastmod>2023-10-05</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://xtzyj.top/tags/index.html</loc>
+    <loc>https://xtzyj.top/live/index.html</loc>
     
     <lastmod>2023-09-28</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://xtzyj.top/live/index.html</loc>
+    <loc>https://xtzyj.top/tags/index.html</loc>
     
     <lastmod>2023-09-28</lastmod>
     
@@ -211,106 +211,106 @@
 
   <url>
     <loc>https://xtzyj.top/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://xtzyj.top/tags/%E7%BD%91%E9%A1%B5/</loc>
-    <lastmod>2023-11-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://xtzyj.top/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2023-11-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xtzyj.top/tags/%E6%AC%A2%E8%BF%8E/</loc>
-    <lastmod>2023-11-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xtzyj.top/tags/Linux/</loc>
-    <lastmod>2023-11-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xtzyj.top/tags/Android/</loc>
-    <lastmod>2023-11-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xtzyj.top/tags/TWRP%E7%BC%96%E8%AF%91/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xtzyj.top/tags/%E8%A7%86%E9%A2%91/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xtzyj.top/tags/%E7%BD%91%E9%A1%B5/</loc>
+    <lastmod>2023-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xtzyj.top/tags/%E6%AC%A2%E8%BF%8E/</loc>
+    <lastmod>2023-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xtzyj.top/tags/Linux/</loc>
+    <lastmod>2023-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xtzyj.top/tags/Android/</loc>
+    <lastmod>2023-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xtzyj.top/tags/TWRP%E7%BC%96%E8%AF%91/</loc>
+    <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xtzyj.top/tags/%E5%A1%9E%E5%B0%94%E8%BE%BE%E4%BC%A0%E8%AF%B4/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xtzyj.top/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xtzyj.top/tags/Chroot/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xtzyj.top/tags/immich/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xtzyj.top/tags/%E7%9B%B8%E5%86%8C/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xtzyj.top/tags/%E5%A4%87%E4%BB%BD/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xtzyj.top/tags/%E7%9B%B4%E6%92%AD/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -318,50 +318,50 @@
 
   
   <url>
-    <loc>https://xtzyj.top/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2023-11-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xtzyj.top/categories/%E6%97%A7%E9%A1%B5%E9%9D%A2%E8%BF%81%E7%A7%BB/</loc>
-    <lastmod>2023-11-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://xtzyj.top/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xtzyj.top/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xtzyj.top/categories/%E6%95%99%E7%A8%8B/%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xtzyj.top/categories/%E6%97%A7%E9%A1%B5%E9%9D%A2%E8%BF%81%E7%A7%BB/</loc>
+    <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xtzyj.top/categories/%E6%97%A7%E9%A1%B5%E9%9D%A2%E8%BF%81%E7%A7%BB/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xtzyj.top/categories/%E6%95%99%E7%A8%8B/%E6%90%9E%E6%9C%BA/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xtzyj.top/categories/%E6%95%99%E7%A8%8B/%E7%BD%91%E7%BB%9C/Self-Hosting/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
