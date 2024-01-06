@@ -137,16 +137,7 @@
   </url>
   
   <url>
-    <loc>https://xtzyj.top/provider/index.html</loc>
-    
-    <lastmod>2023-10-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xtzyj.top/live/index.html</loc>
+    <loc>https://xtzyj.top/links/index.html</loc>
     
     <lastmod>2023-09-28</lastmod>
     
@@ -155,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://xtzyj.top/links/index.html</loc>
+    <loc>https://xtzyj.top/live/index.html</loc>
     
     <lastmod>2023-09-28</lastmod>
     
@@ -232,6 +223,13 @@
   </url>
   
   <url>
+    <loc>https://xtzyj.top/tags/%E6%AC%A2%E8%BF%8E/</loc>
+    <lastmod>2024-01-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://xtzyj.top/tags/Linux/</loc>
     <lastmod>2024-01-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -253,7 +251,7 @@
   </url>
   
   <url>
-    <loc>https://xtzyj.top/tags/%E6%AC%A2%E8%BF%8E/</loc>
+    <loc>https://xtzyj.top/tags/Chroot/</loc>
     <lastmod>2024-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -268,13 +266,6 @@
   
   <url>
     <loc>https://xtzyj.top/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8/</loc>
-    <lastmod>2024-01-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xtzyj.top/tags/Chroot/</loc>
     <lastmod>2024-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -332,14 +323,14 @@
   </url>
   
   <url>
-    <loc>https://xtzyj.top/categories/%E6%97%A7%E9%A1%B5%E9%9D%A2%E8%BF%81%E7%A7%BB/</loc>
+    <loc>https://xtzyj.top/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2024-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xtzyj.top/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://xtzyj.top/categories/%E6%97%A7%E9%A1%B5%E9%9D%A2%E8%BF%81%E7%A7%BB/</loc>
     <lastmod>2024-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -353,14 +344,14 @@
   </url>
   
   <url>
-    <loc>https://xtzyj.top/categories/%E6%97%A7%E9%A1%B5%E9%9D%A2%E8%BF%81%E7%A7%BB/%E6%B8%B8%E6%88%8F/</loc>
+    <loc>https://xtzyj.top/categories/%E6%95%99%E7%A8%8B/%E6%90%9E%E6%9C%BA/</loc>
     <lastmod>2024-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xtzyj.top/categories/%E6%95%99%E7%A8%8B/%E6%90%9E%E6%9C%BA/</loc>
+    <loc>https://xtzyj.top/categories/%E6%97%A7%E9%A1%B5%E9%9D%A2%E8%BF%81%E7%A7%BB/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2024-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
