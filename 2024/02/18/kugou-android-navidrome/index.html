@@ -295,7 +295,7 @@
 
             <span class="meta-info-item post-update-date">
                 <i class="icon fa-solid fa-file-pen"></i>&nbsp;
-                <span class="datetime" data-updated="Tue Aug 13 2024 20:07:02 GMT+0800">2024-08-13 20:07:02</span>
+                <span class="datetime" data-updated="Mon Sep 16 2024 09:07:40 GMT+0800">2024-09-16 09:07:40</span>
             </span>
         
 
@@ -336,7 +336,7 @@
         
         
             <span class="meta-info-item post-wordcount">
-                <i class="icon fas fa-file-word"></i>&nbsp;<span>613 字</span>
+                <i class="icon fas fa-file-word"></i>&nbsp;<span>615 字</span>
             </span>
         
         
@@ -391,7 +391,7 @@
 <p>我们要用krc2lrc工具将krc转换为可读的lrc歌词文件，项目地址是： <a class="link"   target="_blank" rel="noopener" href="https://github.com/veficos/krc2lrc" >https://github.com/veficos/krc2lrc<i class="fas fa-external-link-alt"></i></a></p>
 <p>我们用Termux来在手机上编译运行这个工具</p>
 <p>关闭小黄鸟，打开Termux，可以直接复制运行以下代码（建议科学上网）：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">pkg upgrade -y</span><br><span class="line">pkg install git clang vim make -y</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/veficos/krc2lrc.git</span><br><span class="line"><span class="built_in">cd</span> krc2lrc/c</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;Q0M9Z2NjCgprcmMybHJjOiBtYWluLmMKCSQoQ0MpIC1vIGtyYzJscmMgbWFpbi5jIHpsaWIvKi5jIC1zdGQ9Yzg5&#x27;</span> | <span class="built_in">base64</span> --decode &gt; ./Makefile</span><br><span class="line">make</span><br><span class="line"><span class="built_in">mv</span> ./krc2lrc <span class="variable">$PREFIX</span>/bin/</span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line"><span class="built_in">rm</span> -rf ./krc2lrc</span><br><span class="line">clear</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">pkg upgrade -y</span><br><span class="line">pkg install git clang vim make -y</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/veficos/krc2lrc.git</span><br><span class="line"><span class="built_in">cd</span> krc2lrc/c</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;Q0M9Z2NjCgprcmMybHJjOiBtYWluLmMKCSQoQ0MpIC1vIGtyYzJscmMgbWFpbi5jIHpsaWIvKi5jIC1zdGQ9Yzg5&#x27;</span> | <span class="built_in">base64</span> --decode &gt; ./Makefile</span><br><span class="line">make</span><br><span class="line"><span class="built_in">chmod</span> +x ./krc2lrc</span><br><span class="line"><span class="built_in">mv</span> ./krc2lrc <span class="variable">$PREFIX</span>/bin/</span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line"><span class="built_in">rm</span> -rf ./krc2lrc</span><br><span class="line">clear</span><br></pre></td></tr></table></figure>
 
 <p>然后运行<code>krc2lrc</code>，看到输出：</p>
 <pre><code>usage1: krc2lrc test.krc test.lrc
